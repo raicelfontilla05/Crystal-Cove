@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart | Crystal Cove Jewelry</title>
+  <link rel="stylesheet" href="theme/style2.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="header-container">
+      <nav>
+        <a href="index.html" class="logo-link">
+          <img src="pics/logo.png" alt="Crystal Cove Logo" class="logo-img">
+        </a>
+        <ul class="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="care-guide.html">Care Guide</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <div class="search-container">
+          <form action="search.html" method="get">
+            <input type="text" placeholder="Search jewelry..." name="q" class="search-input">
+            <button type="submit" class="search-btn">
+              <img src="pics/1.png" alt="Search" class="icon-img">
+            </button>
+          </form>
+        </div>
+        <a href="cart.html" aria-label="Shopping Cart">
+          <img src="pics/2.png" alt="Shopping Cart" class="icon-img">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="cart-section">
+    <h1>Your Shopping Cart</h1>
+
+    <div class="cart-container">
+      <div class="cart-item">
+        <img src="pics/midnightring.png" alt="Midnight Ring">
+        <div class="item-details">
+          <h2>Midnight Ring</h2>
+          <p>₱1,500.00</p>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <img src="pics/celestialearrings.png" alt="Celestial Earrings">
+        <div class="item-details">
+          <h2>Celestial Earrings</h2>
+          <p>₱2,300.00</p>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-summary">
+      <h3>Total: ₱3,800.00</h3>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Crystal Cove Jewelry | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
